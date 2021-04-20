@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BluetoothA2DPProfileDemo</string>
+    <string name="str_device_1">Connect Device 1</string>
+    <string name="str_device_2">Connect Device 2</string>
+    <string name="str_device_3">Connect Device 3</string>
+    <string name="str_device_4">Connect Device 4</string>
+    <string name="str_connection_status">Connection status:</string>
+    <string name="str_device_name">Device name:</string>
+    <string name="str_play">Play Audio</string>
+</resources>

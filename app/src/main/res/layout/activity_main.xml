@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/layoutDevices"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDevice1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_device_1"
+            android:textAllCaps="false"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDevice2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_device_2"
+            android:textAllCaps="false"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDevice3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_device_3"
+            android:textAllCaps="false"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDevice4"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_device_4"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textAllCaps="false"
+        android:id="@+id/buttonPlayAudio"
+        android:layout_below="@id/layoutDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_play"/>
+
+</RelativeLayout>
